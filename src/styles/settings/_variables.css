@@ -1,0 +1,24 @@
+:root {
+  /* Colors */
+  --light-yellow: #ffe21d;
+  --dark-yellow: #ffd21d;
+  --light-blue: #24afff;
+  --dark-blue: #248bff;
+  --salmon: #f26c6c;
+  --green: #27b667;
+
+/* Fonts */
+  --default-font: 'Montserrat', sans-serif;
+  --title-font-size: 30px;
+  --text-font-size: 16px;
+
+
+/* Spaces */
+  --space-unit: 10px;
+
+  --space-default: calc(0.5 * var(--space-unit));
+
+  --space-small: var(--space-default);
+  --space-medium: calc(2 * var(--space-default));
+  --space-large: calc(4 * var(--space-default));
+}
