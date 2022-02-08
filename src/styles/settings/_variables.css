@@ -1,32 +1,24 @@
-/* Colors */
-:root{
+:root {
+  /* Colors */
   --light-yellow: #ffe21d;
   --dark-yellow: #ffd21d;
   --light-blue: #24afff;
   --dark-blue: #248bff;
   --salmon: #f26c6c;
   --green: #27b667;
-}
 
 /* Fonts */
-:root{
   --default-font: 'Montserrat', sans-serif;
   --title-font-size: 30px;
   --text-font-size: 16px;
-}
+
 
 /* Spaces */
-:root{
   --space-unit: 10px;
 
-  --margin: calc(0.5 * var(--space-unit));
-  --padding: calc(0.5 * var(--space-unit));
+  --space-default: calc(0.5 * var(--space-unit));
 
-  --margin-small: var(--margin);
-  --margin-medium: calc(2 * var(--margin));
-  --margin-large: calc(4 * var(--margin));
-
-  --padding-small: var(--padding);
-  --padding-medium: calc(2 * var(--padding));
-  --padding-large: calc(4 * var(--padding));
+  --space-small: var(--space-default);
+  --space-medium: calc(2 * var(--space-default));
+  --space-large: calc(4 * var(--space-default));
 }
