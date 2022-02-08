@@ -14,27 +14,33 @@
     <h1>Design System</h1>
     
     <section>
-      <div>
-        <button class="button button--primary">static</button>
-        <button class="button button--primary">hovered</button>
-        <button class="button button--primary">pressed</button>
-        <button class="button button--primary" disabled>disabled</button>
+      <div class="div div--flexbox">
+        <div class="div--div--flexbox">
+          <button class="button button--primary">static</button>
+          <button class="button button--primary">hovered</button>
+          <button class="button button--primary">pressed</button>
+          <button class="button button--primary" disabled>disabled</button>
+        </div>
+        <div class="div--div--flexbox">
+          <button class="button button--secondary">static</button>
+          <button class="button button--secondary">hovered</button>
+          <button class="button button--secondary">pressed</button>
+          <button class="button button--secondary" disabled>disabled</button>
+        </div>
       </div>
-      <div>
-        <button class="button button--secondary">static</button>
-        <button class="button button--secondary">hovered</button>
-        <button class="button button--secondary">pressed</button>
-        <button class="button button--secondary" disabled>disabled</button>
-      </div>
-
-      <div>
-        <input class="input" type="text" placeholder="Static Input Placeholder">
-        <input class="input" type="text" placeholder="Active Input Text">
-        <input class="input" type="text" placeholder="Disabled Input" disabled>
         
-        <input class="input input--error" type="text" placeholder="Input Error!">
-        <input class="input input--success" type="text" placeholder="Input Success :)">
-        <input class="input input--warning" type="text" placeholder="This Needs your attention">
+      <div class="div div--flexbox">
+        <div class="div--div--flexbox">
+          <input class="input" type="text" placeholder="Static Input Placeholder">
+          <input class="input" type="text" placeholder="Active Input Text">
+          <input class="input" type="text" placeholder="Disabled Input" disabled>
+        </div>
+        
+        <div class="div--div--flexbox">
+          <input class="input input--error" type="text" placeholder="Input Error!">
+          <input class="input input--success" type="text" placeholder="Input Success :)">
+          <input class="input input--warning" type="text" placeholder="This Needs your attention">
+        </div>
       </div>
 
     </section>
