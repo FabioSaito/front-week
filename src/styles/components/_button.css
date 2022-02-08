@@ -38,8 +38,10 @@
 }
 .button--secondary:hover, .button--secondary:disabled {
   background-color: var(--light-blue);
+  color: white;
 }
 .button--secondary:active {
   background-color: var(--dark-blue);
   border-color: var(--dark-blue);
+  color: white;
 }
