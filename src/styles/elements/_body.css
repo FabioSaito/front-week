@@ -1,0 +1,5 @@
+body{
+  width: 100%;
+  background-color: var(--dark-blue);
+  font-family: var(--default-font);
+}
