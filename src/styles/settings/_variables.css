@@ -7,6 +7,13 @@
   --salmon: #f26c6c;
   --green: #27b667;
   --off-white: #f8f8ff;
+  --off-grey: #edeef3;
+  --red-error: #ede1e5;
+  --red-text-error: #f17b78;
+  --green-success: #dae7e5;
+  --green-text-success: #6ac391;
+  --yellow-warning: #eae7dc;
+  --yellow-text-warning: #e6b64c;
 
 /* Fonts */
   --default-font: 'Montserrat', sans-serif;
