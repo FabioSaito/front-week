@@ -1,0 +1,50 @@
+.button {
+  color: var(--black);
+  font-size: 12px;
+  font-family: var(--default-font);
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: background-color .2s, border-color .2s;
+  padding: var(--space-small) var(--space-large);
+  background-color: transparent;
+  border-radius: 50vh;
+  border-style: solid;
+  letter-spacing: 1px;
+  width: 130px;
+  overflow: hidden;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/*Primary Button*/
+.button--primary {
+  border-color: var(--light-yellow);
+}
+
+.button--primary:hover, .button--primary:disabled {
+  background-color: var(--light-yellow);
+}
+
+.button--primary:active {
+  background-color: var(--dark-yellow);
+  border-color: var(--dark-yellow);
+}
+
+/*Secondary Button*/
+.button--secondary {
+  border-color: var(--light-blue);
+}
+
+.button--secondary:hover, .button--secondary:disabled {
+  background-color: var(--light-blue);
+  color: var(--white);
+}
+
+.button--secondary:active {
+  background-color: var(--dark-blue);
+  border-color: var(--dark-blue);
+  color: var(--white);
+}

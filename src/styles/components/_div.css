@@ -1,0 +1,16 @@
+.div {
+  padding: var(--space-large);
+}
+
+.div--flex {
+  display: flex;
+}
+
+.div--flex-column {
+  flex-direction: column;
+}
+
+.div--flex-row {
+  padding: var(--space-medium);
+  justify-content: space-around;
+}

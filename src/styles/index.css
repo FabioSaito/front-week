@@ -6,3 +6,7 @@
 @import 'elements/_body.css';
 @import 'elements/_paragraph.css';
 @import 'elements/_headers.css';
+
+@import 'components/_button.css';
+@import 'components/_input.css';
+@import 'components/_div.css';
