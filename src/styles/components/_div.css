@@ -2,14 +2,16 @@
   padding: var(--space-large);
 }
 
-.div--flexbox {
+.div--flex {
   display: flex;
+}
+
+.div--flex-column {
   flex-direction: column;
 }
 
-.div--div--flexbox {
+.div--flex-row {
   padding: var(--space-medium);
-  display: flex;
   flex-direction: row;
   justify-content: space-around;
 }

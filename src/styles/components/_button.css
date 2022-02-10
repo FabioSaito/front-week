@@ -1,5 +1,5 @@
 .button {
-  color: black;
+  color: var(--black);
   font-size: 12px;
   font-family: var(--default-font);
   font-weight: 700;
@@ -24,9 +24,11 @@
 .button--primary {
   border-color: var(--light-yellow);
 }
+
 .button--primary:hover, .button--primary:disabled {
   background-color: var(--light-yellow);
 }
+
 .button--primary:active {
   background-color: var(--dark-yellow);
   border-color: var(--dark-yellow);
@@ -36,12 +38,14 @@
 .button--secondary {
   border-color: var(--light-blue);
 }
+
 .button--secondary:hover, .button--secondary:disabled {
   background-color: var(--light-blue);
-  color: white;
+  color: var(--white);
 }
+
 .button--secondary:active {
   background-color: var(--dark-blue);
   border-color: var(--dark-blue);
-  color: white;
+  color: var(--white);
 }

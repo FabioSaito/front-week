@@ -2,9 +2,9 @@
   font-family: var(--default-font);
   font-size: 12px;
   font-weight: 600;
-  color: black;
+  color: var(--black);
   padding: var(--space-small) var(--space-medium) ;
-  background-color: white;
+  background-color: var(--white);
   outline:none;
   border: 2px solid transparent;
   border-radius: 50vh;
@@ -22,7 +22,7 @@
   border-color: var(--light-blue);
 }
 ::placeholder {
-  color: black;
+  color: var(--black);
   opacity: 0.6; 
 }
 .input:focus::placeholder {
