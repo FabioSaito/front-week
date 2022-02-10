@@ -12,6 +12,5 @@
 
 .div--flex-row {
   padding: var(--space-medium);
-  flex-direction: row;
   justify-content: space-around;
 }
