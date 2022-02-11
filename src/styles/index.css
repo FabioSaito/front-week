@@ -6,7 +6,14 @@
 @import 'elements/_body.css';
 @import 'elements/_paragraph.css';
 @import 'elements/_headers.css';
+@import 'elements/_navbar.css';
+@import 'elements/_list.css';
 
 @import 'components/_button.css';
 @import 'components/_input.css';
 @import 'components/_div.css';
+@import 'components/_hero.css';
+@import 'components/_list-navbar.css';
+@import 'components/_logo.css';
+
+@import 'utilities/_text.css'

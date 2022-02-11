@@ -12,6 +12,7 @@
   letter-spacing: 1px;
   width: 130px;
   overflow: hidden;
+  white-space: nowrap;
 }
 
 .button:disabled {
