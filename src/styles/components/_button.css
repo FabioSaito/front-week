@@ -10,7 +10,7 @@
   border-radius: 50vh;
   border-style: solid;
   letter-spacing: 1px;
-  width: 130px;
+  min-width: 130px;
   overflow: hidden;
   white-space: nowrap;
 }
