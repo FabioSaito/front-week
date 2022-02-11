@@ -1,16 +1,16 @@
-.div {
+.design-sytem-container {
   padding: var(--space-large);
 }
 
-.div--flex {
+.design-sytem-list--flex {
   display: flex;
 }
 
-.div--flex-column {
+.design-sytem-list--flex-column {
   flex-direction: column;
 }
 
-.div--flex-row {
+.design-sytem-list--flex-row {
   padding: var(--space-medium);
   justify-content: space-around;
 }

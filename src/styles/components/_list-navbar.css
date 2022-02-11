@@ -1,0 +1,27 @@
+.ul--navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li--navbar {
+  margin: 0 var(--space-large);
+  text-transform: uppercase;
+}
+
+.a--li--navbar {
+  color: var(--white);
+  text-decoration: none;
+  position: relative;
+}
+
+.a--li--navbar:hover::after {
+  content: '';
+  height: 2px;
+  width: 65%;
+  background: var(--light-yellow);
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+}
